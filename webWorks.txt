@@ -1,0 +1,32 @@
+What is http?
+http is hyper text transfer protocol, it helps get data or send data to a server
+
+2. what is a url?
+a url is an address for a website
+
+3.what is dns?
+dns is something that takes urls and turns them into ip addresses
+
+4. what is a query string?
+a query string allows you to pass key-value pairs into a url in a certain format.
+
+5. list 2 HTTP verbs and there use cases
+get- get data from a server
+post- sending data to the server
+
+6.what is an http request?
+an http request is a request sent from the client to the server following protocol
+
+7.what is an http response?
+an http response is a response sent from the client to the server following protocol
+
+8.what is a http header? give a couple examples of request and response headers
+headers provide additional info about the request or response
+request headers: host, cookie,cache-control
+response headers: last-modified, set-cookie, cache control
+
+9. what happens when you type a  url in the browser?
+your browser turns the name into an ip address.
+than it makes a request to that ip, including headers, than the server sends a response in the form of html with a status code,
+the browser than sets up a DOM from the html,css and js,
+than the browser makes a seperate http request for the resources and recieves a response from the server.
